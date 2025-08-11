@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Top menu item -->
+    <menuitem name="Real Estate"
+        id="real_estate_menu"
+    />
+    <menuitem id="menu_frontdesk"
+              name="Front Desk"
+              parent="real_estate_menu"
+              action="action_property_frontdesk"
+    />
+    <menuitem id="menu_customers"
+              name="Customers"
+              parent="real_estate_menu"
+
+    />
+
+</odoo>

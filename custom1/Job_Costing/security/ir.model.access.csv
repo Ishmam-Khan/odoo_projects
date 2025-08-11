@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_cost_sheet,access.cost.sheet,model_cost_sheet,base.group_user,1,1,1,1
+access_job_type,access.job.type,model_job_type,base.group_user,1,1,1,1
+access_job_costing_material_line,access.job.costing.material.line,model_job_costing_material_line,base.group_user,1,1,1,1
+access_job_costing_labour_line,access.job.costing.labour.line,model_job_costing_labour_line,base.group_user,1,1,1,1
+access_job_costing_overhead_line,access.job.costing.overhead.line,model_job_costing_overhead_line,base.group_user,1,1,1,1

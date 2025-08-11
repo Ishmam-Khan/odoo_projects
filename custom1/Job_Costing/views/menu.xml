@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Top menu item -->
+    <menuitem id="menu_cost_root"
+              name="Job Costing"
+              sequence="39"
+    />
+    <menuitem id="menu_frontdesk"
+              name="Job costing"
+              parent="menu_cost_root"
+    />
+
+    <!-- Submenu: Patient -->
+    <menuitem id="menu_job_costing"
+              name="Job Cost Sheet"
+              parent="menu_frontdesk"
+              action="action_cost_sheet"
+
+    />
+
+<!--    <menuitem id="menu_appointments"-->
+<!--              name="Appointments"-->
+<!--              parent="menu_frontdesk"-->
+<!--              action="action_hospital_Appointments"-->
+<!--    />-->
+
+<!--    <menuitem id="menu_appointment_line"-->
+<!--              name="Appointment Lines"-->
+<!--              parent="menu_frontdesk"-->
+<!--              action="action_hospital_appointment_line"-->
+<!--    />-->
+
+    <menuitem id="menu_configuration"
+              name="Configuration"
+              parent="menu_cost_root"
+
+
+    />
+
+     <menuitem id="menu_job_type"
+               name="Job Type"
+               parent="menu_configuration"
+               action="action_job_type"
+
+     />
+</odoo>

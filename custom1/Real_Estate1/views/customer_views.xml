@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_property_frontdesk" model="ir.actions.act_window">
+            <field name="name">Customer</field>
+            <field name="res_model">real.estate.property</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Create a new customer
+              </p><p>
+                Customers or Buyers!!!
+              </p>
+            </field>
+        </record>
+
+</odoo>

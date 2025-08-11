@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    <record id="view_job_costing_material_line_tree" model="ir.ui.view">-->
+<!--        <field name="name">job.costing.material.line.tree</field>-->
+<!--        <field name="model">job.costing.material.line</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--&lt;!&ndash;            <tree string="job type">&ndash;&gt;-->
+<!--&lt;!&ndash;                <field name="name"/>&ndash;&gt;-->
+<!--                <tree>-->
+<!--                    <field name="product_id"/>-->
+<!--&lt;!&ndash;                    <field name="description"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <field name="reference"/>&ndash;&gt;-->
+<!--                </tree>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="view_job_type_form" model="ir.ui.view">-->
+<!--        <field name="name">job.type.form</field>-->
+<!--        <field name="model">job.type</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form string="Job Type">-->
+<!--                <sheet>-->
+<!--                    <group>-->
+<!--                    <field name="name"/>-->
+<!--                    <field name="code"/>-->
+<!--                    <field name="job_type" string="Job Type"/>-->
+<!--                    </group>-->
+<!--                </sheet>-->
+<!--            </form>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    <record id="action_job_type" model="ir.actions.act_window">-->
+<!--        <field name="name">job type</field>-->
+<!--        <field name="res_model">job.type</field>-->
+<!--        <field name="view_mode">tree,form</field>-->
+<!--        <field name="help" type="html">-->
+<!--            <p class="o_view_noncontent_smiling_face">-->
+<!--                Create a new job type-->
+<!--            </p>-->
+<!--        </field>-->
+<!--    </record>-->
+
+
+</odoo>

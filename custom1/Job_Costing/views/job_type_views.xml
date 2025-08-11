@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_job_type_tree" model="ir.ui.view">
+        <field name="name">job.type.tree</field>
+        <field name="model">job.type</field>
+        <field name="arch" type="xml">
+<!--            <tree string="job type">-->
+<!--                <field name="name"/>-->
+                <tree string="Job Type">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="job_type"/>
+                </tree>
+<!--            </tree>-->
+        </field>
+    </record>
+
+    <record id="view_job_type_form" model="ir.ui.view">
+        <field name="name">job.type.form</field>
+        <field name="model">job.type</field>
+        <field name="arch" type="xml">
+            <form string="Job Type">
+                <sheet>
+                    <group>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="job_type" string="Job Type"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_job_type" model="ir.actions.act_window">
+        <field name="name">job type</field>
+        <field name="res_model">job.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_noncontent_smiling_face">
+                Create a new job type
+            </p>
+        </field>
+    </record>
+
+
+</odoo>
