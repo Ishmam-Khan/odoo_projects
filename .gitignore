@@ -1,0 +1,17 @@
+# Python venv
+venv/
+.venv/
+
+# PyCharm / IDE settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Odoo-related temp files
+*.log
+*.pyc
+__pycache__/
+
+# Other local configs
+odo17.conf
